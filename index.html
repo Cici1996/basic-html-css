@@ -13,86 +13,242 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="index.html" class="brand"> | csa@email.com</a>
-                <ul class="menu">
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#" class="active">Our Work</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li class="hidden"><a href="#">FAQ</a></li>
-                    <li class="hidden"><a href="#" class="btn">Get Started</a></li>
-                </ul>
-                <ul class="nav-buttons">
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#" class="btn">Get Started</a></li>
-                </ul>
-                <button class="menu-btn"><i class="fas fa-bars"></i></button>
-            </nav>
-            <div class="header-body">
-                <h1>Cargo <span>Design</span> Agency</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, cumque!</p>
-                <a href="#" class="btn">Get Started</a>
+    <div>
+        <nav class="sidebar">
+            <a href="#" class="brand">
+                <h1>SosialTracker</h1>
+            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-circle-notch"></i>
+                        <span>Overview</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Linkedin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                        <span>Youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitch"></i>
+                        <span>Twitch</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="help">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-question"></i>
+                        <span>Help</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <nav class="navbar">
+            <div class="input-wrap panel">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search">
             </div>
-            <div class="header-bottom">
-                <div class="bottom-heading">
-                    <h2>Case Studies</h2>
-                    <a href="#" class="link">View All</a>
+            <div class="menu">
+                <ul>
+                    <li><i class="fas fa-moon" id="darkToggle"></i></li>
+                    <li><i class="fas fa-cog"></i></li>
+                    <li><i class="fas fa-bell"></i></li>
+                </ul>
+                <div class="profile panel">
+                    <div>
+                        <img src="./assets/images/profile.jpg" alt="">
+                        <span>Ceptari Tyas</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
                 </div>
             </div>
-            <div class="panels">
-                <div class="panel">
-                    <div class="panel-header">
-                        <span class="category">Technology</span>
-                        <span>Dashboard</span>
+        </nav>
+        <div class="dash">
+            <div class="stats">
+                <h1 class="title">Instagram</h1>
+                <div class="overview">
+                    <div class="panel">
+                        <div>
+                            <div class="icon"><i class="fas fa-user"></i></div>
+                        </div>
+                        <div>
+                            <h2>2.567</h2>
+                            <small>Weekly Follower</small>
+                        </div>
                     </div>
-                    <div class="panel-body">
-                        <h2>Google</h2>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, sunt.
-                        </p>
+                    <div class="panel">
+                        <div>
+                            <div class="icon"><i class="fas fa-heart"></i></div>
+                        </div>
+                        <div>
+                            <h2>2.567</h2>
+                            <small>Weekly Likes</small>
+                        </div>
                     </div>
-                    <a href="#" class="panel-link">
-                        <span>View Case Study</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="panel">
+                        <div>
+                            <div class="icon"><i class="fas fa-comment-dots"></i></div>
+                        </div>
+                        <div>
+                            <h2>2.567</h2>
+                            <small>Weekly Comment</small>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel">
-                    <div class="panel-header">
-                        <span class="category">Finance</span>
-                        <span>Mobile App</span>
-                    </div>
-                    <div class="panel-body">
-                        <h2>Dunkins Tech</h2>
+                <div class="user-info">
+                    <div class="profile-card panel">
+                        <img src="./assets/images/profile.jpg" alt="">
+                        <h3>Ceptari Tyas</h3>
+                        <small>Photographer</small>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, deleniti?
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, rerum.
                         </p>
+                        <a href="#">www.google.com</a>
+                        <p>Austin, TX</p>
+                        <div class="profile-stats">
+                            <div>
+                                <h2>404</h2>
+                                <small>Post</small>
+                            </div>
+                            <div>
+                                <h2>13k</h2>
+                                <small>Followes</small>
+                            </div>
+                            <div>
+                                <h2>325</h2>
+                                <small>Following</small>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="panel-link">
-                        <span>View Case Study</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="panel chart-container">
+                        <canvas id="lineChart"></canvas>
+                    </div>
                 </div>
-                <div class="panel">
-                    <div class="panel-header">
-                        <span class="category">Travel</span>
-                        <span>Mobile App</span>
+                <div class="gallery">
+                    <img src="./assets/images/img1.jpg" alt="">
+                    <img src="./assets/images/img2.jpg" alt="">
+                    <img src="./assets/images/img3.jpg" alt="">
+                    <div class="thumbnails">
+                        <img src="./assets/images/img4.jpg" alt="">
+                        <img src="./assets/images/img5.jpg" alt="">
+                        <img src="./assets/images/img6.jpg" alt="">
+                        <img src="./assets/images/img7.jpg" alt="">
                     </div>
-                    <div class="panel-body">
-                        <h2>Nokia Gadget</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, at.
-                        </p>
+                </div>
+            </div>
+            <div class="activities">
+                <div class="activities-header">
+                    <h3>Activities</h3>
+                    <a href="#">See All</a>
+                </div>
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/images/user1.jpg" alt="" class="user-image">
+                        <div>
+                            <h4>Fachri nurdiansyarh</h4>
+                            <small>Commented on your photo</small>
+                        </div>
                     </div>
-                    <a href="#" class="panel-link">
-                        <span>View Case Study</span>
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                    <div class="post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatibus!</p>
+                        <img src="./assets/images/img1.jpg" alt="" class="photo">
+                    </div>
+                    <div>
+                        <small>1h ago</small>
+                        <div>
+                           <button><i class="fas fa-heart"></i></button> 
+                           <button><i class="fas fa-share"></i></button> 
+                           <button><i class="fas fa-ellipsis-v"></i></button> 
+                        </div>
+                    </div>
+                </div>
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/images/user2.jpg" alt="" class="user-image">
+                        <div>
+                            <h4>Fachri nurdiansyarh</h4>
+                            <small>Commented on your photo</small>
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatibus!</p>
+                        <img src="./assets/images/img2.jpg" alt="" class="photo">
+                    </div>
+                    <div>
+                        <small>1h ago</small>
+                        <div>
+                           <button><i class="fas fa-heart"></i></button> 
+                           <button><i class="fas fa-share"></i></button> 
+                           <button><i class="fas fa-ellipsis-v"></i></button> 
+                        </div>
+                    </div>
+                </div>
+                <div class="post panel">
+                    <div class="post-header">
+                        <img src="./assets/images/user3.jpg" alt="" class="user-image">
+                        <div>
+                            <h4>Fachri nurdiansyarh</h4>
+                            <small>Commented on your photo</small>
+                        </div>
+                    </div>
+                    <div class="post-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, voluptatibus!</p>
+                        <img src="./assets/images/img3.jpg" alt="" class="photo">
+                    </div>
+                    <div>
+                        <small>1h ago</small>
+                        <div>
+                           <button><i class="fas fa-heart"></i></button> 
+                           <button><i class="fas fa-share"></i></button> 
+                           <button><i class="fas fa-ellipsis-v"></i></button> 
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Theme Colors</h3>
+                    <ul class="colors">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </header>
+    </main>
 </body>
 <script src="./assets/js/main.js"></script>
+
 </html>

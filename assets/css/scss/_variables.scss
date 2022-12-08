@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-$white : #fff;
-$blue:#286ef1;
-$blue1:#2260d4;;
+
+:root {
+  --accent: #654ce5;
+  --primary: #fff;
+  --secondary: #f7f8fc;
+  --text-default: #000;
+  --text-primary: #555;
+  --text-secondary: #ccc;
+}
+
+.dark-mode {
+  --primary: #213348;
+  --secondary: #0a131c;
+  --text-default: #fff;
+  --text-primary: #c1c1c1;
+  --text-secondary: #ccc;
+}
